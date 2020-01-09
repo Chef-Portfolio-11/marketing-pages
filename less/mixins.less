@@ -1,0 +1,23 @@
+//Mixins
+
+.button() {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: @supergreen;
+    padding: 3.5% 5%;
+    color: @white;
+    margin: 0 3%;
+
+    a {
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+    &:hover {
+        background-color: @secondary-bg;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
