@@ -1,3 +1,149 @@
+// .container {
+//     h2 {
+//         color: @supergreen;
+//         margin: 2% 40% 2%;
+
+//         @media @mobile {
+//             margin: 2% 5% 0 10%;
+//         }
+//     }
+// }
+
+// .meet-team {
+//     display: flex;
+//     flex-direction: row;
+//     // flex-wrap: wrap;
+//     // width: 75%;
+//     // margin: 2% 10% 0 13%;
+
+//     @media @mobile {
+//         width: 100%;
+//         margin: 10%;
+//     }
+
+//     @media @tablet {
+//         width: 90%;
+//     }
+
+//     button {
+//         background-color: @main-bg;
+//         margin: 5%;
+//         padding: 2% 4% 2% 4%;
+//     }
+
+//     h3 {
+//         font-size: 2.5rem;
+//         margin: 5%;
+//         color: @supergreen;
+
+//         @media @mobile {
+//             font-size: 1.8rem;
+//         }
+//     }
+
+//     p {
+//         margin: 5%;
+//         color: @white;
+
+//         @media @mobile {
+//             font-size: 1rem;
+//             // margin: 0 auto;
+//         }
+
+//         @media @tablet {
+//             font-size: 1.4rem;
+//         }
+//     }
+
+//     .about-a {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         justify-content: center;
+//         background-color: @secondary-bg;
+//         border-bottom: 8px solid @main-bg;
+//     }
+
+//     .about-b {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         justify-content: center;
+//         background-color: @secondary-bg;
+//         border-bottom: 8px solid @main-bg;
+        
+//         // @media @mobile {
+//         //     img {
+//         //         width: 50%;
+//         //     }
+//         // }
+//     }
+
+//     .about-c {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//         // justify-content: center;
+//         background-color: @secondary-bg;
+//         border-bottom: 8px solid @main-bg;
+        
+//         // img {
+//         //     margin-right: 18%;
+
+//         //     @media @mobile {
+//         //         margin-right: 10%;
+//         //     }
+//         // }
+
+//         // @media @mobile {
+//         //     // justify-content:;
+//         // }
+//     }
+
+//     .about-d {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         justify-content: center;
+//         background-color: @secondary-bg;
+//         border-bottom: 8px solid @main-bg;
+        
+//         // img {
+//         //     margin-right: 19%;
+
+//         //     @media @mobile {
+//         //         margin-right: 5%;
+//         //     }
+//         // }
+//     }
+
+//     .about-e {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         justify-content: center;
+//         background-color: @secondary-bg;
+//         border-bottom: 8px solid @main-bg;
+        
+//         // img {
+//         //     margin-right: 4%;
+//         // }
+//     }
+
+//     .about-f {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         align-content: center;
+//         background-color: @secondary-bg;
+//         border-bottom: 8px solid @main-bg;  
+
+//         // img {
+//         //     margin-right: 16%;
+//         // }
+//     }
+// }
+
 .container {
     h2 {
         color: @supergreen;
@@ -13,8 +159,8 @@
 .meet-team {
     display: flex;
     flex-direction: row;
-    width: 75%;
-    margin: 2% 10% 0 10%;
+    width: 70%;
+    margin: 2% 10% 0 15%;
 
     @media @mobile {
         width: 100%;
@@ -33,16 +179,20 @@
 
     h3 {
         font-size: 2.5rem;
-        margin: 5%;
+        // margin: 5%;
         color: @supergreen;
 
         @media @mobile {
             font-size: 1.8rem;
         }
+
+        @media @tablet {
+            font-size: 1.8rem;
+        }
     }
 
     p {
-        margin: 5%;
+        // margin: 5%;
         color: @white;
 
         @media @mobile {
@@ -61,6 +211,14 @@
         justify-content: center;
         background-color: @secondary-bg;
         border-bottom: 8px solid @main-bg;
+
+        h3 {
+            margin: 2%;
+        }
+
+        p {
+            margin: 2%;
+        }
     }
 
     .about-b {
@@ -69,7 +227,20 @@
         justify-content: space-around;
         justify-content: center;
         background-color: @secondary-bg;
-        border-bottom: 8px solid @main-bg;  
+        border-bottom: 8px solid @main-bg; 
+        
+        h3 {
+            margin: 2%;
+        }
+
+        p {
+            margin: 2%;
+
+            @media @mobile {
+                font-size: 1.2rem;
+                padding: 2%;
+            }
+        }
     }
 
     .about-c {
@@ -78,7 +249,28 @@
         justify-content: space-around;
         justify-content: center;
         background-color: @secondary-bg;
-        border-bottom: 8px solid @main-bg;  
+        border-bottom: 8px solid @main-bg; 
+        font-size: 1rem;
+
+        img {
+            margin: 0 2% 0 0;
+
+            @media @mobile {
+                margin-right: 0;
+            }
+
+            @media @tablet {
+                margin-right: 0;
+            }
+        }
+
+        h3 {
+            margin: 2%;
+        }
+
+        p {
+            margin: 2%;
+        }
     }
 
     .about-d {
@@ -87,7 +279,27 @@
         justify-content: space-around;
         justify-content: center;
         background-color: @secondary-bg;
-        border-bottom: 8px solid @main-bg;  
+        border-bottom: 8px solid @main-bg;
+        
+        img {
+            margin: 0 3% 0 0;
+
+            @media @mobile {
+                margin-right: 0;
+            }
+
+            @media @tablet {
+                margin-right: 0;
+            }
+        }
+        
+        h3 {
+            margin: 2%;
+        }
+
+        p {
+            margin: 2%;
+        }
     }
 
     .about-e {
@@ -96,7 +308,15 @@
         justify-content: space-around;
         justify-content: center;
         background-color: @secondary-bg;
-        border-bottom: 8px solid @main-bg;  
+        border-bottom: 8px solid @main-bg;
+        
+        h3 {
+            margin: 2%;
+        }
+
+        p {
+            margin: 2%;
+        }
     }
 
     .about-f {
@@ -106,5 +326,35 @@
         justify-content: center;
         background-color: @secondary-bg;
         border-bottom: 8px solid @main-bg;  
+
+        img {
+            margin: 0 2% 0 0;
+
+            @media @mobile {
+                margin-right: 0;
+            }
+
+            @media @tablet {
+                margin-right: 0;
+            }
+        }
+        
+        h3 {
+            margin-top: 3%;
+            margin-left: 0;
+
+            @media @tablet {
+                margin: 4%;
+            }
+        }
+
+        p {
+            margin-top: 2%;
+            margin-left: 1.5%;
+
+            @media @tablet {
+                margin: 4%;
+            }
+        }
     }
 }

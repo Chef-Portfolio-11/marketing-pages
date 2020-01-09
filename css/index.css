@@ -197,6 +197,9 @@ nav h1 {
   margin: 1%;
   color: #07FE20;
 }
+nav h1 a {
+  color: #07FE20;
+}
 @media (max-width: 500px) {
   nav h1 {
     width: auto;
@@ -262,12 +265,12 @@ nav h1 .highlight {
   justify-content: space-evenly;
   align-content: center;
   background-color: #2F2D2D;
-  width: 80%;
-  margin: 0 10% 0 10%;
+  width: 70%;
+  margin: 2% 0 0 15%;
 }
 .footer h1 {
   color: #07FE20;
-  margin: 3% 42%;
+  margin: 3% 36%;
 }
 @media (max-width: 500px) {
   .footer h1 {
@@ -278,8 +281,9 @@ nav h1 .highlight {
   color: #FFFFFF;
 }
 .footer .footerNav {
-  margin: 0 41%;
-  padding: 2%;
+  margin: 0 38%;
+  padding: 0%;
+  background-color: #2F2D2D;
 }
 @media (max-width: 500px) {
   .footer .footerNav {
@@ -312,8 +316,9 @@ nav h1 .highlight {
   }
 }
 .footer p {
+  background-color: #2F2D2D;
   color: grey;
-  margin: 0 43.5%;
+  margin: 3% 39% 2% 39%;
   padding: 1%;
   font-size: 1rem;
 }
@@ -325,8 +330,7 @@ nav h1 .highlight {
   width: 100%;
 }
 .middle-content img {
-  margin: 0 5% 5% 5% auto;
-  width: 60%;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .middle-content img {
@@ -352,7 +356,8 @@ nav h1 .highlight {
   display: flex;
   align-content: center;
   width: 80%;
-  margin: 2% 28% 2% 28%;
+  margin-top: 5%;
+  margin-left: 35%;
   color: #07FE20;
 }
 @media (max-width: 500px) {
@@ -374,8 +379,8 @@ nav h1 .highlight {
   padding: 1%;
 }
 .pro-chef img {
-  width: 45%;
-  margin-left: 30%;
+  width: 68%;
+  margin-left: 20%;
 }
 @media (max-width: 500px) {
   .pro-chef img {
@@ -390,9 +395,8 @@ nav h1 .highlight {
 .pro-chef ul {
   font-size: 1.9rem;
   list-style-type: circle;
-  margin-left: 10%;
+  margin-left: 25%;
   color: #07FE20;
-  width: 40%;
   padding-left: 4%;
 }
 @media (max-width: 500px) {
@@ -435,7 +439,6 @@ nav h1 .highlight {
   padding: 3.5% 5%;
   color: #FFFFFF;
   margin: 0 3%;
-  padding: 2% 4% 2% 4%;
 }
 .buttons button a {
   text-decoration: none;
@@ -524,8 +527,7 @@ nav h1 .highlight {
   padding: 2%;
 }
 .bottom-content .not-chef img {
-  width: 45%;
-  margin-left: 10%;
+  width: 70%;
 }
 @media (max-width: 500px) {
   .bottom-content .not-chef img {
@@ -541,9 +543,10 @@ nav h1 .highlight {
 .bottom-content .not-chef ul {
   font-size: 1.9rem;
   list-style-type: circle;
+  margin-top: 2%;
+  margin-left: 8%;
   color: #07FE20;
   width: 40%;
-  padding-left: 4%;
 }
 @media (max-width: 500px) {
   .bottom-content .not-chef ul {
@@ -569,8 +572,9 @@ nav h1 .highlight {
   }
 }
 #bottomImage {
-  width: 80%;
-  margin: 4% 22% 2%;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 18%;
 }
 @media (max-width: 500px) {
   #bottomImage {
@@ -593,8 +597,8 @@ nav h1 .highlight {
 .meet-team {
   display: flex;
   flex-direction: row;
-  width: 75%;
-  margin: 2% 10% 0 10%;
+  width: 70%;
+  margin: 2% 10% 0 15%;
 }
 @media (max-width: 500px) {
   .meet-team {
@@ -614,7 +618,6 @@ nav h1 .highlight {
 }
 .meet-team h3 {
   font-size: 2.5rem;
-  margin: 5%;
   color: #07FE20;
 }
 @media (max-width: 500px) {
@@ -622,8 +625,12 @@ nav h1 .highlight {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 800px) {
+  .meet-team h3 {
+    font-size: 1.8rem;
+  }
+}
 .meet-team p {
-  margin: 5%;
   color: #FFFFFF;
 }
 @media (max-width: 500px) {
@@ -644,6 +651,12 @@ nav h1 .highlight {
   background-color: #2F2D2D;
   border-bottom: 8px solid #1F1E1E;
 }
+.meet-team .about-a h3 {
+  margin: 2%;
+}
+.meet-team .about-a p {
+  margin: 2%;
+}
 .meet-team .about-b {
   display: flex;
   flex-direction: row;
@@ -652,6 +665,18 @@ nav h1 .highlight {
   background-color: #2F2D2D;
   border-bottom: 8px solid #1F1E1E;
 }
+.meet-team .about-b h3 {
+  margin: 2%;
+}
+.meet-team .about-b p {
+  margin: 2%;
+}
+@media (max-width: 500px) {
+  .meet-team .about-b p {
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+}
 .meet-team .about-c {
   display: flex;
   flex-direction: row;
@@ -659,6 +684,26 @@ nav h1 .highlight {
   justify-content: center;
   background-color: #2F2D2D;
   border-bottom: 8px solid #1F1E1E;
+  font-size: 1rem;
+}
+.meet-team .about-c img {
+  margin: 0 2% 0 0;
+}
+@media (max-width: 500px) {
+  .meet-team .about-c img {
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .meet-team .about-c img {
+    margin-right: 0;
+  }
+}
+.meet-team .about-c h3 {
+  margin: 2%;
+}
+.meet-team .about-c p {
+  margin: 2%;
 }
 .meet-team .about-d {
   display: flex;
@@ -668,6 +713,25 @@ nav h1 .highlight {
   background-color: #2F2D2D;
   border-bottom: 8px solid #1F1E1E;
 }
+.meet-team .about-d img {
+  margin: 0 3% 0 0;
+}
+@media (max-width: 500px) {
+  .meet-team .about-d img {
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .meet-team .about-d img {
+    margin-right: 0;
+  }
+}
+.meet-team .about-d h3 {
+  margin: 2%;
+}
+.meet-team .about-d p {
+  margin: 2%;
+}
 .meet-team .about-e {
   display: flex;
   flex-direction: row;
@@ -676,6 +740,12 @@ nav h1 .highlight {
   background-color: #2F2D2D;
   border-bottom: 8px solid #1F1E1E;
 }
+.meet-team .about-e h3 {
+  margin: 2%;
+}
+.meet-team .about-e p {
+  margin: 2%;
+}
 .meet-team .about-f {
   display: flex;
   flex-direction: row;
@@ -683,4 +753,35 @@ nav h1 .highlight {
   justify-content: center;
   background-color: #2F2D2D;
   border-bottom: 8px solid #1F1E1E;
+}
+.meet-team .about-f img {
+  margin: 0 2% 0 0;
+}
+@media (max-width: 500px) {
+  .meet-team .about-f img {
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .meet-team .about-f img {
+    margin-right: 0;
+  }
+}
+.meet-team .about-f h3 {
+  margin-top: 3%;
+  margin-left: 0;
+}
+@media (max-width: 800px) {
+  .meet-team .about-f h3 {
+    margin: 4%;
+  }
+}
+.meet-team .about-f p {
+  margin-top: 2%;
+  margin-left: 1.5%;
+}
+@media (max-width: 800px) {
+  .meet-team .about-f p {
+    margin: 4%;
+  }
 }
