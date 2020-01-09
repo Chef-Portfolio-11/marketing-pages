@@ -274,7 +274,7 @@ nav h1 .highlight {
 }
 @media (max-width: 500px) {
   .footer h1 {
-    margin: 2% 38%;
+    margin: 2% 25%;
   }
 }
 .footer .highlight {
@@ -334,7 +334,7 @@ nav h1 .highlight {
 }
 @media (max-width: 500px) {
   .middle-content img {
-    display: none;
+    margin: 2% 0 2% 8%;
   }
 }
 .middle-content h1 {
@@ -362,12 +362,12 @@ nav h1 .highlight {
 }
 @media (max-width: 500px) {
   .main-h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 800px) {
   .main-h2 {
-    margin: 0 0 0 25%;
+    margin: 0 0 0 18%;
     align-items: center;
   }
 }
@@ -381,23 +381,25 @@ nav h1 .highlight {
 .pro-chef img {
   width: 68%;
   margin-left: 20%;
+  padding: 4%;
 }
 @media (max-width: 500px) {
   .pro-chef img {
-    width: 70%;
+    display: none;
   }
 }
 @media (max-width: 800px) {
   .pro-chef img {
-    width: 70%;
+    display: none;
   }
 }
 .pro-chef ul {
   font-size: 1.9rem;
   list-style-type: circle;
-  margin-left: 25%;
+  margin-top: 30%;
+  margin-left: 0%;
   color: #07FE20;
-  padding-left: 4%;
+  padding: 4%;
 }
 @media (max-width: 500px) {
   .pro-chef ul {
@@ -524,27 +526,27 @@ nav h1 .highlight {
   flex-direction: row-reverse;
   justify-content: center;
   width: 70%;
-  padding: 2%;
+  padding: 4%;
 }
 .bottom-content .not-chef img {
   width: 70%;
+  padding: 2%;
 }
 @media (max-width: 500px) {
   .bottom-content .not-chef img {
-    width: 80%;
-    margin-left: 15%;
+    display: none;
   }
 }
 @media (max-width: 800px) {
   .bottom-content .not-chef img {
-    width: 80%;
+    display: none;
   }
 }
 .bottom-content .not-chef ul {
   font-size: 1.9rem;
   list-style-type: circle;
-  margin-top: 2%;
-  margin-left: 8%;
+  margin-top: 3%;
+  margin-left: 5%;
   color: #07FE20;
   width: 40%;
 }

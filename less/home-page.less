@@ -11,7 +11,7 @@
         width: 100%;
 
         @media @mobile {
-            display: none;
+            margin: 2% 0 2% 8%;
         }
     }
 
@@ -42,11 +42,11 @@
     color: @supergreen;
 
     @media @mobile {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     @media @tablet {
-        margin: 0 0 0 25%;
+        margin: 0 0 0 18%;
         align-items: center;
     }
 }
@@ -62,24 +62,29 @@
     img {
         width: 68%;
         margin-left: 20%;
+        padding: 4%;
 
         @media @mobile {
-            width: 70%;
+            // width: 70%;
+            // margin-left: 25%;
+            display: none;
         }
 
         @media @tablet {
-            width: 70%;
+            // width: 70%;
+            // padding: 0;
+            display: none;
         }
     }
 
     ul {
         font-size: 1.9rem;
         list-style-type: circle;
-        //margin-top: 12%;
-        margin-left: 25%;
+        margin-top: 30%;
+        margin-left: 0%;
         color: @supergreen;
         // width: 30%;
-        padding-left: 4%;
+        padding: 4%;
 
         @media @mobile {
             font-size: 1.8rem;
@@ -178,31 +183,36 @@
         flex-direction: row-reverse;
         justify-content: center;
         width: 70%;
-        padding: 2%;
+        padding: 4%;
     
     
         img {
             width: 70%;
+            padding: 2%;
             //margin-left: 10%;
 
             @media @mobile {
-                width: 80%;
-                margin-left: 15%;
+                // width: 80%;
+                // margin-left: 15%;
+                // padding: 0;
+                display: none;
             }
 
             @media @tablet {
-                width: 80%;
+                // width: 80%;
+                // padding: 0;
+                display: none;
             }
         }
     
         ul {
             font-size: 1.9rem;
             list-style-type: circle;
-            margin-top: 2%;
-            margin-left: 8%;
+            margin-top: 3%;
+            margin-left: 5%;
             color: @supergreen;
             width: 40%;
-            // padding-left: 4%;
+            
             
             @media @mobile {
                 margin-left: 15%;
