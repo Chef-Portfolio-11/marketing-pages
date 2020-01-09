@@ -254,6 +254,18 @@ nav h1 .highlight {
     justify-content: space-evenly;
   }
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.footer h1 {
+  color: #07FE20;
+}
+.footer .highlight {
+  color: #FFFFFF;
+}
 .middle-content {
   display: flex;
   flex-direction: column;
@@ -313,6 +325,16 @@ nav h1 .highlight {
   width: 45%;
   margin-left: 30%;
 }
+@media (max-width: 500px) {
+  .pro-chef img {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .pro-chef img {
+    width: 70%;
+  }
+}
 .pro-chef ul {
   font-size: 1.9rem;
   list-style-type: circle;
@@ -323,8 +345,28 @@ nav h1 .highlight {
 }
 @media (max-width: 500px) {
   .pro-chef ul {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-left: auto;
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .pro-chef ul {
+    font-size: 1.9rem;
+    margin-left: auto;
+    margin-top: 2%;
+    width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .pro-chef {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 800px) {
+  .pro-chef {
+    flex-direction: column-reverse;
+    margin-bottom: 2%;
   }
 }
 .buttons {
@@ -368,6 +410,13 @@ nav h1 .highlight {
     margin-left: 3%;
   }
 }
+@media (max-width: 800px) {
+  .buttons {
+    padding: 2%;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+}
 .bottom-section button {
   cursor: pointer;
   border-radius: 4px;
@@ -399,6 +448,16 @@ nav h1 .highlight {
 .bottom-content h2 {
   color: #07FE20;
 }
+@media (max-width: 500px) {
+  .bottom-content h2 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 800px) {
+  .bottom-content h2 {
+    font-size: 2.8rem;
+  }
+}
 .bottom-content .not-chef {
   display: flex;
   flex-direction: row-reverse;
@@ -410,12 +469,46 @@ nav h1 .highlight {
   width: 45%;
   margin-left: 10%;
 }
+@media (max-width: 500px) {
+  .bottom-content .not-chef img {
+    width: 80%;
+    margin: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .bottom-content .not-chef img {
+    width: 80%;
+  }
+}
 .bottom-content .not-chef ul {
   font-size: 1.9rem;
   list-style-type: circle;
   color: #07FE20;
   width: 40%;
   padding-left: 4%;
+}
+@media (max-width: 500px) {
+  .bottom-content .not-chef ul {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 800px) {
+  .bottom-content .not-chef ul {
+    margin-left: 25%;
+    margin-top: 3%;
+  }
+}
+@media (max-width: 500px) {
+  .bottom-content .not-chef {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  .bottom-content .not-chef {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
 }
 #bottomImage {
   width: 80%;
