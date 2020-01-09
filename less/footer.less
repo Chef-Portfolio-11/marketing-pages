@@ -3,12 +3,58 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
+    background-color: @secondary-bg;
 
     h1 {
         color: @supergreen;
+        margin: 3% 42%;
+
+        @media @mobile {
+            margin: 2% 38%;
+        }
     }
 
     .highlight {
         color: @white;
+    }
+
+    .footerNav  {
+        margin: 0 41%;
+        padding: 2%;
+
+        @media @mobile {
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+        @media @tablet {
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+    }
+
+    a {
+        padding: 1%;
+        font-size: 1.2rem;
+    
+        &:hover {
+            font-size: +120%;
+            color: @supergreen;
+        }
+
+        @media @mobile {
+            font-size: 1rem;
+        }
+
+        @media @tablet {
+            font-size: 1rem;
+        }
+    }
+
+    p {
+        color: grey;
+        margin: 0 43.5%;
+        padding: 1%;
+        font-size: 1rem;
     }
 }
