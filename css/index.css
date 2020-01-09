@@ -588,6 +588,17 @@ nav h1 .highlight {
   width: 75%;
   margin: 2% 10% 0 10%;
 }
+@media (max-width: 500px) {
+  .meet-team {
+    width: 100%;
+    margin: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .meet-team {
+    width: 90%;
+  }
+}
 .meet-team button {
   background-color: #1F1E1E;
   margin: 5%;
@@ -598,9 +609,24 @@ nav h1 .highlight {
   margin: 5%;
   color: #07FE20;
 }
+@media (max-width: 500px) {
+  .meet-team h3 {
+    font-size: 1.8rem;
+  }
+}
 .meet-team p {
   margin: 5%;
   color: #FFFFFF;
+}
+@media (max-width: 500px) {
+  .meet-team p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .meet-team p {
+    font-size: 1.4rem;
+  }
 }
 .meet-team .about-a {
   display: flex;

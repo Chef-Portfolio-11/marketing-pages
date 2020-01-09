@@ -11,6 +11,15 @@
     width: 75%;
     margin: 2% 10% 0 10%;
 
+    @media @mobile {
+        width: 100%;
+        margin: 5%;
+    }
+
+    @media @tablet {
+        width: 90%;
+    }
+
     button {
         background-color: @main-bg;
         margin: 5%;
@@ -21,11 +30,23 @@
         font-size: 2.5rem;
         margin: 5%;
         color: @supergreen;
+
+        @media @mobile {
+            font-size: 1.8rem;
+        }
     }
 
     p {
         margin: 5%;
         color: @white;
+
+        @media @mobile {
+            font-size: 1.2rem;
+        }
+
+        @media @tablet {
+            font-size: 1.4rem;
+        }
     }
 
     .about-a {
